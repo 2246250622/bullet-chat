@@ -1,0 +1,269 @@
+.header-section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+	box-shadow: 0 5px 15px rgba(0,0,0, 0.2);
+}
+.address{
+	color: var(--clr-white);
+	font-size: 1.35rem;
+	letter-spacing: var(--spacing);
+	line-height: 1.5;
+	padding: 2rem;
+}
+
+#estateAdd{
+	color: rgb(0,0,0);
+	text-align: center;
+	letter-spacing: var(--spacing);
+	line-height: 1.5;
+	margin: 3.5rem 0;
+}
+.estate-image-info{
+	overflow: hidden;
+	margin: 2rem;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.loadEstateImage{
+	border-radius: 0.875rem;
+	transition: all 0.3s linear;
+}
+
+.loadEstateImage:hover{
+	transform: scale(1.2);
+}
+
+.estate-info
+{
+  border-radius: 4rem;
+	background: #fff;
+	margin: 4rem 2rem;
+	padding: 2rem;
+}
+
+.estate-info p {
+	text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px){
+	.estate-container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.estate-info{
+		padding: 5rem;
+    margin-top: 2rem;
+		letter-spacing: var(--spacing);
+		box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+	}
+
+  .estate-info h4{
+    margin-bottom: 2rem;
+  }
+
+	.loadEstateImage{
+		border-radius: 4rem;
+		padding: 2.5rem 1rem;
+		max-width: 90%;
+		margin: 0 auto;
+	}
+
+
+	.estate-image-info,
+	.estate-info{
+		transition: all 0.3s linear;
+		height: 35rem;
+    padding: 2rem;
+		border-radius: 2rem;
+		flex: 0 0 calc(50% - 4rem );
+	}
+
+	.estate-image-info:hover{
+		box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+	}
+	.estate-info:hover{
+		box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+	}
+}
+
+/*agent comment section*/
+.agent-comment-section{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  background-color: var(--clr-white);
+  min-height: 30vh;
+  padding: 3rem 0;
+  letter-spacing: var(--spacing);
+}
+
+.agent-section-title{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-icon, .agent-section-title h4{
+  margin-right: 2rem;
+}
+
+#agent-comment{
+  padding: 2rem;
+  max-width: 35rem;
+  margin: 0 auto;
+  text-indent:2em;
+  text-align: justify;
+  text-justify: inter-word;
+  border-bottom: 2px solid  #D0D0D0 ;
+}
+
+.profile-icon{
+  display: block;
+  height: 70px;
+  width: auto;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 768px){
+    #agent-comment{
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 70vw;
+    text-indent: 2em;
+  }
+}
+
+/*end of agent comment*/
+
+/*customer comment*/
+.customer-comment{
+  margin-top: 3rem;
+}
+
+.customer-comment h2{
+  text-align: center;
+}
+
+.users-comment{
+  background: var(--clr-grey);
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.user-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.special-title{
+  padding-left: 2rem;
+}
+
+.date{
+  padding-right: 2rem;
+}
+
+.users-comment p{
+  margin-top: 2rem;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 800px){
+  .users-comment{
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media screen and (min-width: 1200px){
+  .users-comment{
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*leave comment section*/
+.user-comment-form{
+  background: var(--clr-white);
+  padding-bottom: 4rem;
+}
+
+
+.comment-form{
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  max-width: 45rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.comment-form h3{
+  text-align: center;
+}
+
+.comment-form .btn{
+  display: block;
+  margin: 0 auto;
+}
+
+.info-footer{
+	padding-top: 2rem;
+}
+
+.info-footer p {
+	font-size: 13px;
+	letter-spacing: 2px;
+	color: #2A2A33;
+}
+
+.appointment-title{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.form-input {
+	margin-left: 1rem;
+	max-width: 70%;
+}
+
+#appointment-agent{
+	margin-left: 0;
+	max-width: 65%;
+}
+
+.emailAppointment{
+  background-image: url(https://cdn4.iconfinder.com/data/icons/round-mobile-ui-set/512/letter-message-email-mail-20.png);
+  background-position: 10px center;
+  background-repeat: no-repeat;
+	padding: 10px 5px 10px 20px;
+	text-indent: 20px;
+}
+
+.phoneAppointment{
+  background-image: url(https://img.icons8.com/metro/26/000000/phone.png);
+  background-position: 10px center;
+  background-repeat: no-repeat;
+	padding: 10px 5px 10px 20px;
+	text-indent: 20px;
+}
+
+.appointmentBtn {
+	margin: 12px auto;
+	display: block;
+	border-radius: 4px;
+}
+
+#getUserComment {
+	max-width: 95%;
+}

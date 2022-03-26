@@ -1,0 +1,41 @@
+.user-section{
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../img/user-background.png') center/cover fixed no-repeat;
+}
+.title{
+  color: var(--clr-white);
+}
+.search-form{
+  color: black;
+}
+
+#user-info{
+  border-collapse: collapse;
+}
+
+#user-info thead{
+  background: var(--clr-primary);
+
+}
+#user-info th{
+  font-size: 1.45rem;
+  padding: 2rem;
+  letter-spacing: var(--spacing);
+}
+
+#user-info td{
+  text-align: center;
+  padding: 2rem;
+  letter-spacing: var(--spacing);
+  border-bottom: 2px solid;
+}
+
+
+@media screen and (max-width: 1200px){
+  .user-info-container{
+  overflow-x: scroll;
+}
+}

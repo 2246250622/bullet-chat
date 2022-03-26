@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #welcome {
+            display: inline-block;
+            width: 100%;
+            height: 200px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #00FFFF;
+
+        }
+    </style>
+
+</head>
+<body>
+
+
+<section id="welcome"></section>
+
+<script src="js/wcg.js"></script>
+<script>
+
+    // words to display to cloud
+    let words = ["Manx (Gaelic)", "Γεία!", "Maldivian", "Maltese", "Māori", "Marathi", "Marshallese", "Mauritian Creole", "Míkmaq", "Monégasque", "Mongolian", "Mossi", "Nahuatl", "Navajo", "Newari / Nepal Bhasa", "Nkore", "Ndebele (Northern - Zimbabwe)", "Ndebele (Southern)", "Nepali", "Niuean", "Nogai", "Northern Sámi", "Northern Sotho", "Norwegian", "Occitan", "Ojibwe", "Okinawan"];
+
+    // container for wcg
+    let welcome = document.getElementById("welcome");
+
+    // create wcg object
+    welcome.wcg({
+        "words": [
+            "1","2","3","4"
+		
+        ]
+    });
+
+</script>
+
+</body>
+</html>

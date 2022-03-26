@@ -1,0 +1,88 @@
+.appointment-title {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.filter{
+    margin-top: 4rem;
+    border-bottom: 8px solid 	#E0E0E0;
+    margin-bottom: 4rem;
+}
+
+.form-group {
+    margin-left: 2rem;
+}
+
+.labelInput {
+    font-size: 1.05rem;
+}
+
+#filterbtn{
+    display: block;
+    margin-left: auto;
+    margin-top: 1.25rem;
+    border-radius: 0.875rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-right: auto;
+}
+
+.form-input{
+    max-width: 40%;
+}
+
+.featured-estate-footer p {
+    color: black;
+}
+
+.special-title{
+    margin: 0;
+    text-indent: 0;
+}
+
+.estate-search-icon{
+    width: 100%;
+    text-align: center;
+}
+
+.appointment-footer{
+    border-top: 3px solid 	#E0E0E0;
+    margin-top: 2rem;
+}
+
+.appointment-footer p {
+    text-indent: 2rem;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+}
+
+#rankbtn{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+@media screen and (min-width: 768px){
+    .form-input{
+        max-width: 350px;
+    }
+
+    .form-group div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+.appointment-info-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.appointment-status{
+    font-size: 1.25rem;
+}

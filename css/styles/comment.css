@@ -1,0 +1,21 @@
+.form-group-center{
+  display: flex;
+  justify-content: center;
+
+}
+
+#estateName, #district{
+  margin-left: 0.575rem;
+  padding: 0.275rem;
+  border-radius: 40px;
+  width: auto;
+}
+
+#estateName:focus, #district:focus{
+  border-color: #1E90FF;
+  box-shadow: 0 0px 5px 0 #1E90FF;
+}
+
+.form-group-center{
+  margin: 2rem 0;
+}

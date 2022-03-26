@@ -1,0 +1,168 @@
+.header-title{
+    margin-top: 0.875rem;
+    line-height: 1.5;
+    text-align: center;
+}
+#title{
+    margin-top: 6rem;
+}
+
+.title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.estate{
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    background: var(--clr-white);
+    margin: 4rem 2rem;
+    padding: 2rem 2rem;
+}
+
+.estate:hover{
+    transition: all 0.3s linear;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+}
+
+.agent-info-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title{
+    margin-top: 0.875rem;
+}
+
+.estate-style{
+    margin-top: 0.875rem;
+}
+
+.estate-style p{
+    font-size: 1rem;
+}
+
+.agent-info{
+    margin-top: 2rem;
+}
+
+.agent-details p {
+    padding-left: 0.875rem;
+    font-size: 1rem;
+}
+
+.estate-details{
+    border-bottom: 3px solid 	#E0E0E0;
+}
+
+@media screen and (min-width:768px) {
+
+    .estate{
+        max-width: 1350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .big-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .estate-details{
+        border-bottom: none;
+    }
+    .agent-info{
+        margin: 0;
+    }
+}
+
+.feedback-title{
+    text-align: center;
+}
+
+.feedback-title h3{
+    font-size: 1.25rem;
+}
+.feedback-title p{
+    font-size: 1rem;
+}
+
+.p-text{
+    font-size: 0.95rem;
+}
+
+.form-container{
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.form-container:hover{
+    transition: all 0.3s linear;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+}
+
+@media screen and (min-width: 768px){
+    .form-container{
+        max-width: 600px;
+        margin: 4rem auto;
+    }
+}
+
+.commentBtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feedback{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background: var(--clr-white);
+    margin: 2rem;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.feedback:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    transition: all 0.35s linear;
+}
+
+.qq{
+    color: #565959!important;
+    font-size: 12px;
+}
+.xd{
+    margin-left: 2rem;
+}
+.qq{
+    text-indent: 3rem;
+}
+.feedback-message{
+    background:#F5F5F5;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    font-size: 0.95rem;
+    text-indent: 1.25rem;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .feedback{
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 8rem;
+    }
+}
+
+.divider{
+    border: 1px solid	#E8E8E8;
+    margin: 4rem 0;
+}
+
+

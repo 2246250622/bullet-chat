@@ -1,0 +1,62 @@
+body {
+  background-color: lightblue;
+}
+
+
+
+.a1{
+	font-size: 1em;
+	color: red;text-align: center; 
+}
+.a2{
+	font-size: 2em;
+	color: blue;text-align: center; 
+}
+.a3{
+	font-size: 3em;
+	color: #789202;text-align: center; 
+}
+.a4{
+	font-size: 4em;
+	color: green;text-align: center; 
+}
+.a6{
+	font-size: 6em;
+	color: yellow;text-align: center; 
+}
+.a7{
+	font-size: 7em;
+	color: #123456;text-align: center; 
+}
+div.a8{
+	font-size: 8em;
+	color: black;text-align: center; 
+}
+.a9{
+	font-size: 9em;
+	color: #98673F;text-align: center; 
+}
+.a10{
+	font-size: 10em;
+	color: #E96774;text-align: center; 
+}
+.a11{
+	font-size: 11em;
+	color: #E96774;text-align: center; 
+}
+.a12{
+	font-size: 12em;
+	color: #567988;text-align: center; 
+}
+.a12{
+	font-size: 13em;
+	color: #567999;text-align: center; 
+}
+.a16{
+	font-size: 14em;
+	color: #567988;text-align: center; 
+}
+.a17{
+	font-size: 17em;
+	color: #567999;text-align: center; 
+}

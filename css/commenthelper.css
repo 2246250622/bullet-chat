@@ -1,0 +1,146 @@
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600";
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  padding: 0px;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  background: #644cad;
+  background: -moz-linear-gradient(left, #644cad 0%, #4426a8 100%);
+  background: -webkit-linear-gradient(left, #644cad 0%, #4426a8 100%);
+  background: linear-gradient(to right, #644cad 0%, #4426a8 100%);
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  margin-top: 0px;
+  color: #4d5c6e;
+  font-weight: 400;
+}
+
+p {
+  color: #72879e;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.flex {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalcontainer {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modalcontainer.active {
+  display: block;
+}
+
+.modal {
+  display: none;
+  position: relative;
+  width: 600px;
+  height: 330px;
+  background-color: #FFF;
+}
+.modal.active {
+  display: block;
+}
+.modal .content {
+  padding: 30px;
+}
+.modal .close {
+  font-family: "Source Sans Pro", sans-serif;
+  cursor: pointer;
+  color: #FFF;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+  color: #999;
+  font-size: 40px;
+}
+.modal .close span {
+  transform: rotate(45deg);
+  display: block;
+}
+.modal .buttons {
+  width: 600px;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background-color: #FFF;
+}
+.modal .buttons a {
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  background-color: #EEE;
+  color: #4d5c6e;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.modal .buttons a:hover {
+  background-color: #e1e1e1;
+}
+.modal .buttons a:nth-of-type(2) {
+  float: right;
+  color: #FFF;
+  background-color: #00c06d;
+}
+.modal .buttons a:nth-of-type(2):hover {
+  background-color: #00a75f;
+}
+
+.modalbttn {
+  background-color: #24252A;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+}
+.modalbttn:hover {
+  background-color: #2b2c32;
+}

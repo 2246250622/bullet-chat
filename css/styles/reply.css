@@ -1,0 +1,64 @@
+.reply-form{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer-comment{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+.reply-btn{
+  padding: 0.875rem;
+  border-radius: 0.875rem;
+  letter-spacing: var(--spacing);
+}
+
+.reply-input{
+  flex: 0 0 70%;
+}
+
+.reply-input::placeholder{
+  letter-spacing: var(--spacing);
+  font-weight: 500;
+}
+
+
+.reply-message{
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 0.875rem;
+  background-color: var(--clr-white);
+  padding: 2rem 0;
+  margin: 2rem auto;
+  width: 100%;
+}
+
+.reply-message p{
+  font-size: 0.875rem;
+  margin: 0 ;
+  padding: 0;
+}
+
+#reply-paragraph{
+	margin-top: 0.875rem;
+	display: block;	
+	word-break: break-all;
+	text-indent: 2em;
+}
+
+/*delete-btn*/
+#delete-btn{
+  cursor: pointer;
+  font-size: 1.25rem;
+  color: var(--clr-primary);
+  transition: all 0.3s linear;
+}
+
+#delete-btn:hover{
+  color:  #ff6347;
+}

@@ -1,0 +1,52 @@
+.btn-update{
+	display: block;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+	align-self: center;
+}
+
+.estate-img-container{
+	position: relative;
+}
+
+.sales{
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	padding: 0.975rem;
+	color: red;
+	font-weight: 600;
+	background: #fff;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	transform: translate(-50%, -50%);
+}
+
+.hidden{
+	display: none;
+}
+
+.form-input{
+  width:100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 0.875rem 0;
+  outline: none;
+  padding: 0.5rem;
+  transition: all 0.1s linear;
+}
+
+.form-input:focus{
+  border-color: #1E90FF;
+  box-shadow: 0 0px 5px 0 #1E90FF;
+}
+
+.form-input::placeholder{
+  font-size: 1.05rem;
+}
+
+.input-label{
+  font-size: 1.05rem;
+}

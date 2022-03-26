@@ -1,0 +1,46 @@
+.user-section{
+  min-height: 75vh;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../img/agent-background.jpg') center/contain fixed no-repeat;
+}
+
+.btn{
+  border-radius: 4px;
+}
+
+.btn-enable{
+  background: #32CD32;
+  color: var(--clr-white);
+}
+
+.btn-enable:hover{
+  background: #00FF00;
+  color: black;
+}
+
+.dialog-title{
+  text-align: center;
+}
+
+.form-control-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-status{
+  outline: none;
+  border-radius: 4px;
+  padding: 0.475rem;
+}
+
+.input-status:focus{
+   border-color: #1E90FF;
+  box-shadow: 0 0px 5px 0 #1E90FF;
+}
+
+.disableBackground{
+  background: grey;
+}

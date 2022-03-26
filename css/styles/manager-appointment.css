@@ -1,0 +1,40 @@
+.app-title {
+    margin: 6rem;
+    text-align: center;
+}
+
+.appointment-table th{
+    background: var(--clr-primary);
+}
+
+.appointment-table td{
+    border: 2px solid #D3D3D3;
+    background: var(--clr-white);
+}
+
+.appointment-table th,td{
+    text-align: left;
+    padding: 8px 0;
+}
+
+.appointment-table{
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+@media screen and (min-width: 768px){
+    .appointment-table{
+        max-width: 950px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.filter-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
